@@ -5,7 +5,14 @@ def suma(n):
     for x in range (1,n+1):
         s = s + x
     print (s)
+def suma2(n):
+    return n*(n+1)/2
+
 
 n = int(input("Ingrese un numero: "))
+print ("primer metodo")
 suma(n)
+print ("segundo metodo")
+print(suma2(n))
+
 
